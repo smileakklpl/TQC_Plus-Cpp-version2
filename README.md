@@ -1,2 +1,2 @@
-# TQC-C-version-2
-TQC+ C++ question bank, a total of 35 questions with detailed explanations
+# TQC+ 程式語言C++第二版
+證照題庫共分7大單元，考試時會從各單元抽一題
