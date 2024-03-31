@@ -1,10 +1,12 @@
-//質數
-#include <iostream>   // 包含輸入輸出流函式庫
-#include <cstring>    // 包含字串操作函式庫
+//題目: 找出質數
+//輸入: 整數n
+//輸出: 0~n之間的所有值數
+#include <iostream>  
+#include <cstring>    
 
 using namespace std;
 
-int main() {  // 主函式的開始
+int main() {  
     int n;
 
     cin >> n;

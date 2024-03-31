@@ -1,4 +1,6 @@
-//簡易計算機
+//題目: 簡毅計算機
+//輸入: 整數a, b,運算符號c
+//輸出: 對應運算式的結果
 #include <iostream>
 
 using namespace std;
@@ -8,7 +10,7 @@ int main(){
 	char c;
 
     cin >> a >> b >> c;
-    if (c == '+'){
+    if(c == '+'){
         ans = a + b;
     }
     else if(c == '-'){
@@ -16,9 +18,6 @@ int main(){
     }
     else if(c == '*'){
         ans = a * b;
-    }
-    else if(c == '/'){
-        ans = a / b;
     }
     else{
         cout << "error" << endl;
