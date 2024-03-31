@@ -1,6 +1,6 @@
-//題目：兩float相加
-//輸入：兩float
-//輸出：兩float相加(小數點後2位)
+//題目: 兩float相加
+//輸入: 兩float
+//輸出: 兩float相加(小數點後2位)
 #include <iostream>
 #include <iomanip>
 
