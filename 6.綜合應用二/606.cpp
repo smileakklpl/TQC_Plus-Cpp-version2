@@ -1,4 +1,6 @@
-//輸入前五數，並對第六個字母進行判別
+//題目: 身分證
+//輸入: char id *格式 12345D 23423U
+//輸出: 判別前五個數經過一些判斷式後，是否跟第六個字母的字元常數相同
 #include <iostream>
 
 using namespace std;
@@ -15,5 +17,4 @@ int main(){
             cout << "Fail" << endl;
         }
     }
-
 }

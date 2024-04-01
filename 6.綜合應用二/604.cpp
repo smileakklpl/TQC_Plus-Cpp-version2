@@ -1,4 +1,6 @@
-//array加總，升序輸出
+//題目: array排序
+//輸入: array(限制9個int)
+//輸出: array加總，由小到大輸出
 #include <iostream>
 
 using namespace std;

@@ -1,4 +1,6 @@
-//輸入兩矩陣,做乘法
+//題目: 矩陣乘法
+//輸入: 矩陣matrix_a的a1列b1行 matrix_a的值 矩陣matrix_b的a2列b2行 matrix_b的值 
+//輸出: matrix_a & matrix_b的乘法
 #include <iostream>
 
 using namespace std;
