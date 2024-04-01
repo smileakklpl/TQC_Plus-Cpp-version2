@@ -1,4 +1,6 @@
-//輸入英文 輸出件盤的右一位
+//題目: 鍵盤
+//輸入: 字串input(限制50字元,且皆為英文)
+//輸出: 該單字在件盤上的右一位
 #include <iostream>
 
 using namespace std;

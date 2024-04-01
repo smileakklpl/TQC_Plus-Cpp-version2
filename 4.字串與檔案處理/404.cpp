@@ -1,4 +1,6 @@
-//輸入字串 輸出出現次數最多的字母與次數
+//題目: 字母出現次數
+//輸入: 字串input(限制50個字元)
+//輸出: 出現次數最多的字母與次數
 #include <iostream>
 #include <cstring>
 
@@ -24,5 +26,4 @@ int main() {
 
     cout << static_cast<char>(position + 'a') << endl;
     cout << max << endl;
-    
 }

@@ -1,4 +1,6 @@
-//轉大寫
+//題目: 讀取read.txt中的文字並將首字母轉大寫後，輸出至write.txt中
+//輸入: read.txt
+//輸出: write.txt(首字母轉大寫)
 #include <iostream>
 #include <fstream>
 #include <string>

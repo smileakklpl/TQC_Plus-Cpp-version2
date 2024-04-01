@@ -1,4 +1,6 @@
-//比對兩字串的ASCII碼
+//題目: 比對兩字串的ASCII碼
+//輸入: 字串str1, str2(128字元以內), 整數n
+//輸出: 兩字串前n個字元的ASCII碼大小
 #include <iostream>
 #include <cstring>
 
@@ -9,11 +11,7 @@ int main(){
     char str2[128];
 
     int n;
-
-    //cin.getline(str1, 128);
     cin >> str1 >> str2 >> n;
-    //cin.getline(str2, 128);
-    //cin >> n;
 
     int result = strncmp(str1, str2, n); //string number compare
 

@@ -1,4 +1,6 @@
-//輸入兩字串，輸出兩字串的長度，並將兩字串相加後反向輸出
+//題目: 字串反轉
+//輸入: 字串str1, str2(長度必須大於3且小於20)
+//輸出: 兩字串的長度，並將兩字串連接後反轉輸出
 #include <iostream>
 #include <cstring>
 
@@ -15,8 +17,8 @@ int main() {
     }
     else{
         cout << strlen(str1) << endl << strlen(str2) << endl;
-        strcpy(str_com,str1); //重要  複製 string copy
-        strcat(str_com,str2); //重要  連接 string concatenate
+        strcpy(str_com,str1); //string copy
+        strcat(str_com,str2); //string concatenate
         compute(str_com);
     }
 }
