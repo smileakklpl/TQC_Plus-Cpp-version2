@@ -1,4 +1,6 @@
-//數字乘法 輸入數字 輸出數字每一位的相乘
+//題目: 數字乘法 
+//輸入: 整數num
+//輸出: num每一位的相乘 *格式 a*b*c=d
 #include <iostream>
 
 using namespace std;

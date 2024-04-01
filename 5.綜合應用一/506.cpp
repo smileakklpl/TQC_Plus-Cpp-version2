@@ -1,10 +1,9 @@
-//輸入一數字
-//找值數相乘
+//題目: 因數分解
+//輸入: 整數n
+//輸出: 因數分解 *格式 2*2*3
 #include <iostream>
 
 using namespace std;
-
-int compute(int n);
 
 int main(){
     int n;

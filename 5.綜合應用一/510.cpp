@@ -1,4 +1,6 @@
-//印出星星
+//題目: 印出*號
+//輸入: 整數n, m 組成一個矩陣nxm 並億次輸入值
+//輸出: 若矩陣的上下左右的值為0，輸出' ',其餘輸出'*'
 #include <iostream>
 
 using namespace std;
