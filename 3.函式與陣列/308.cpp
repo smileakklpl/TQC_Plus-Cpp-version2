@@ -1,4 +1,6 @@
-//費氏數列
+//題目: 費氏數列
+//輸入: 整數n
+//輸出: 到n的費氏數列(用function寫) *輸出格式如下 fib(1)=1
 #include <iostream>
 
 using namespace std;
@@ -22,16 +24,4 @@ int main(){
     for (int i = n; i >= 1; i--){
         cout << "fib(" << i << ")=" << a[i] << endl; 
     }
-    /*
-    for (int i = n; i >= 1; i--){
-        cout << "fib(" << i << ")=" << compute(i) << endl; 
-    }
-    */
 }
-
-
-
-
-//printf("fib(%d)=%d\n",i+1,a[i]);
-
-

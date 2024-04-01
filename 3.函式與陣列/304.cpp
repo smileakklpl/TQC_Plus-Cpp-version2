@@ -1,9 +1,11 @@
-//3的倍數
+//題目: 計算3的倍數出現次數
+//輸入: 含6個整數的array
+//輸出: array裡有多少3的倍數(用function寫)
 #include <iostream>
 
 using namespace std;
 
-int compute_(int array[]){
+int compute(int array[]){
     int n = 0;
     for (int i = 0; i < 6; i++){
         if (array[i] % 3 == 0){
@@ -18,22 +20,5 @@ int main(){
     for (int i = 0; i < 6; i++){
         cin >> array[i];
     }
-    cout << compute_(array) << endl;
-
+    cout << compute(array) << endl;
 }
-
-
-/*
-int compute(int a[]){
-	int i,n=0;
-	for(i=0; i<6; i++)
-	if(a[i]%3==0) n++;
-	return n;
-}
-
-int main(){
-	int n , arr[6],i;
-	for(i=0; i<6; i++)scanf("%d",&arr[i]);
-	printf("%d\n",compute(arr));
-}
-*/

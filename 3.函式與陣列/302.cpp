@@ -1,35 +1,20 @@
-//期中考分數
-#include <stdio.h>
-#include <stdlib.h>
+//題目: 期中考分數
+//輸入: 整數socre
+//輸出: 調整過後的分數(用function寫)
 #include <iostream>
 
 using namespace std;
 
-int compute_(int);
-
-
-char compute(int score){
-	if(score<0 || score>100)
-		return -1;
-	if(score >= 60) score += 5;
-	else score+=10;
-	return score;	
-}
+int compute(int);
 
 int main(){
 	int score, final;
 
     cin >> score;
-    cout << compute_(score) << endl;
-
-
-    //-----
-	scanf("%d", &score);
-	final= compute(score);
-	printf("%d", final);
+    cout << compute(score) << endl;
 }
 
-int compute_(int score){
+int compute(int score){
     if(score < 0 || score > 100){
         return -1;
     }

@@ -1,4 +1,6 @@
-//阿姆斯壯數
+//題目: 判斷阿姆斯壯數
+//輸入: 整數n
+//輸出: 1到整數n之間的所有阿姆斯壯數(用function寫) 
 #include <iostream>
 #include <cmath>
 
@@ -14,7 +16,7 @@ int compute(int n){
     run_num = n;
     while (run_num > 0){
         count += 1;
-        run_num /= 10; //count等於該int的位數
+        run_num /= 10;
     }
 
     run_num = n;
@@ -31,7 +33,6 @@ int compute(int n){
     return 0;
 }
 
-
 int main(){
     int n;
     cin >> n;
@@ -42,4 +43,3 @@ int main(){
     }
     else{cout << "error" << endl;}
 }
-
