@@ -1,12 +1,13 @@
-//輸入：4個整數，讀取 read.txt。
-//輸出：由小到大排序，寫入 write.txt。
+//題目: 讀取當案並寫入
+//輸入: 4個整數，讀取 read.txt。
+//輸出: 由小到大排序，寫入 write.txt並輸出
 #include <iostream>
 #include <fstream>
 
 using namespace std;
 
 int main(){
-    int array[10];
+    int array[100];
     int value = 0,count = 4, storage;
 
     ifstream input_file;
@@ -22,8 +23,8 @@ int main(){
         count++;
     }
 
-    for(int i = 0; i < 10; i++){
-        for(int j = i; j < 10; j++){
+    for(int i = 0; i <  count; i++){
+        for(int j = i; j < count; j++){
             if(array[i] > array[j]){
                 storage = array[i];
                 array[i] = array[j];
@@ -32,7 +33,7 @@ int main(){
         }
     }
 
-    for(int i = 0; i < 10; i++){
+    for(int i = 0; i < count; i++){
         cout << array[i] << endl;
         output_file << array[i] << endl;
     }

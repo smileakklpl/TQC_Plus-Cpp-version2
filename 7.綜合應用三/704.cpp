@@ -1,5 +1,6 @@
-//輸入：整數n n個整數。
-//輸出：出現次數大於n/2的數。(若無輸出error)
+//題目: 數字出現次數
+//輸入: 整數n n個整數。
+//輸出: 出現次數大於 n/2的數，若無輸出error
 #include <iostream>
 
 using namespace std;

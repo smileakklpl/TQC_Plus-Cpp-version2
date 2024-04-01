@@ -1,3 +1,6 @@
+//題目: FIFO（First In First Out）先進先出演算法
+//輸入: 10個數字
+//輸出: 10數字在FIFO演算法中的過程(視窗大小為4)
 #include <iostream>
 
 using namespace std;
@@ -51,5 +54,4 @@ int main(){
         frame[i].frame = 0;
     }
     FIFO(frame,p);
-
 }

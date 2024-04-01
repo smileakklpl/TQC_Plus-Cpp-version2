@@ -1,4 +1,6 @@
-//2禁制轉10進制
+//題目: 2進制轉10進制
+//輸入: char sum 2進制字串
+//輸出: 轉換過的10進制數字
 #include <iostream>
 #include <string>
 #include <cmath>
